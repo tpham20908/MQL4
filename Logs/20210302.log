@@ -1,0 +1,139 @@
+0	12:33:54.307	Expert Basics\test USDCAD,M1: loaded successfully
+0	12:33:56.951	test USDCAD,M1: initialized
+0	14:39:57.376	test USDCAD,M1: uninit reason 1
+0	14:39:57.381	Expert test USDCAD,M1: removed
+0	15:02:06.008	Script test101 USDCAD,M1: loaded successfully
+0	15:02:06.021	test101 USDCAD,M1: initialized
+0	15:02:06.040	test101 USDCAD,M1: Alert: Trading 0 way.
+0	15:02:06.040	test101 USDCAD,M1: uninit reason 0
+0	15:02:06.042	Script test101 USDCAD,M1: removed
+0	15:04:26.745	Script test101 USDCHF,H1: loaded successfully
+0	15:04:26.767	test101 USDCHF,H1: initialized
+0	15:04:26.774	test101 USDCHF,H1: Alert: Trading Very_Passive way.
+0	15:04:26.774	test101 USDCHF,H1: uninit reason 0
+0	15:04:26.799	Script test101 USDCHF,H1: removed
+0	15:07:55.338	Script test101 USDCAD,M1: loaded successfully
+0	15:08:14.105	test101 USDCAD,M1 inputs: myTradingMethod=4; 
+0	15:08:14.116	test101 USDCAD,M1: initialized
+0	15:08:14.117	test101 USDCAD,M1: Alert: Trading Very_Agressive way.
+0	15:08:14.117	test101 USDCAD,M1: uninit reason 0
+0	15:08:14.118	Script test101 USDCAD,M1: removed
+0	15:08:22.241	Script test101 USDCAD,M1: loaded successfully
+0	15:08:27.789	test101 USDCAD,M1 inputs: myTradingMethod=2; 
+0	15:08:27.800	test101 USDCAD,M1: initialized
+0	15:08:27.834	test101 USDCAD,M1: Alert: Trading Normall way.
+0	15:08:27.834	test101 USDCAD,M1: uninit reason 0
+0	15:08:27.837	Script test101 USDCAD,M1: removed
+0	17:49:21.005	Script test101 USDCAD,Daily: loaded successfully
+0	17:49:24.876	test101 USDCAD,Daily: initialized
+0	17:49:24.906	test101 USDCAD,Daily: Alert: MA 20 is 1.26650537303509.
+0	17:49:24.906	test101 USDCAD,Daily: uninit reason 0
+0	17:49:24.908	Script test101 USDCAD,Daily: removed
+0	17:49:56.613	Script test101 USDCAD,Daily: loaded successfully
+0	17:49:58.815	test101 USDCAD,Daily: initialized
+0	17:49:58.815	test101 USDCAD,Daily: Alert: MA 20 is 1.266515849225566.
+0	17:49:58.815	test101 USDCAD,Daily: uninit reason 0
+0	17:49:58.817	Script test101 USDCAD,Daily: removed
+0	17:50:11.676	Script test101 USDCAD,M1: loaded successfully
+0	17:50:13.721	test101 USDCAD,M1: initialized
+0	17:50:13.722	test101 USDCAD,M1: Alert: MA 20 is 1.263728642457687.
+0	17:50:13.722	test101 USDCAD,M1: uninit reason 0
+0	17:50:13.723	Script test101 USDCAD,M1: removed
+0	17:50:28.317	Script test101 USDCAD,M5: loaded successfully
+0	17:50:30.242	test101 USDCAD,M5: initialized
+0	17:50:30.271	test101 USDCAD,M5: Alert: MA 20 is 1.263336430788544.
+0	17:50:30.271	test101 USDCAD,M5: uninit reason 0
+0	17:50:30.273	Script test101 USDCAD,M5: removed
+3	17:50:52.155	cannot open file 'c:\Program Files\MetaTrader 4\MQL4\Scripts\test101.ex4' [2]
+3	17:50:55.186	cannot open file 'c:\Program Files\MetaTrader 4\MQL4\Scripts\test101.ex4' [2]
+3	17:50:59.225	cannot open file 'c:\Program Files\MetaTrader 4\MQL4\Scripts\test101.ex4' [2]
+3	17:51:00.451	cannot open file 'c:\Program Files\MetaTrader 4\MQL4\Scripts\test101.ex4' [2]
+0	17:51:06.775	Automated trading disabled
+0	17:51:07.351	Automated trading enabled
+0	17:51:16.224	Compiling 'test101'
+3	17:51:18.685	cannot open file 'c:\Program Files\MetaTrader 4\MQL4\Scripts\test101.ex4' [2]
+0	17:51:45.554	Script test101 USDCAD,M5: loaded successfully
+0	17:51:47.487	test101 USDCAD,M5: initialized
+0	17:51:47.516	test101 USDCAD,M5: Alert: MA 20 is 1.2633.
+0	17:51:47.516	test101 USDCAD,M5: uninit reason 0
+0	17:51:47.518	Script test101 USDCAD,M5: removed
+0	17:52:21.095	Script test101 USDCAD,M5: loaded successfully
+0	17:52:23.658	test101 USDCAD,M5: initialized
+0	17:52:23.683	test101 USDCAD,M5: Alert: MA 20 is 1.26334.
+0	17:52:23.683	test101 USDCAD,M5: uninit reason 0
+0	17:52:23.684	Script test101 USDCAD,M5: removed
+0	17:52:41.548	Script test101 USDCAD,Daily: loaded successfully
+0	17:52:43.726	test101 USDCAD,Daily: initialized
+0	17:52:43.754	test101 USDCAD,Daily: Alert: MA 20 is 1.26651.
+0	17:52:43.754	test101 USDCAD,Daily: uninit reason 0
+0	17:52:43.756	Script test101 USDCAD,Daily: removed
+0	17:52:56.582	Script test101 USDCAD,H1: loaded successfully
+0	17:52:59.152	test101 USDCAD,H1: initialized
+0	17:52:59.152	test101 USDCAD,H1: Alert: MA 20 is 1.26415.
+0	17:52:59.152	test101 USDCAD,H1: uninit reason 0
+0	17:52:59.154	Script test101 USDCAD,H1: removed
+0	17:53:25.346	Script test101 USDCHF,H4: loaded successfully
+0	17:53:27.957	test101 USDCHF,H4: initialized
+0	17:53:27.980	test101 USDCHF,H4: Alert: MA 20 is 0.91213.
+0	17:53:27.980	test101 USDCHF,H4: uninit reason 0
+0	17:53:27.982	Script test101 USDCHF,H4: removed
+0	17:57:12.678	Script test101 USDJPY,H4: loaded successfully
+0	17:57:14.569	test101 USDJPY,H4: initialized
+0	17:57:14.592	test101 USDJPY,H4: Alert: MA 20 is 106.579.
+0	17:57:14.592	test101 USDJPY,H4: uninit reason 0
+0	17:57:14.594	Script test101 USDJPY,H4: removed
+0	17:59:16.875	Script test101 USDCHF,M15: loaded successfully
+0	17:59:19.398	test101 USDCHF,M15: initialized
+0	17:59:19.398	test101 USDCHF,M15: Alert: MA 20 is 0.9146.
+0	17:59:19.398	test101 USDCHF,M15: uninit reason 0
+0	17:59:19.399	Script test101 USDCHF,M15: removed
+0	18:01:43.534	Script test101 USDCAD,H1: loaded successfully
+0	18:01:45.225	test101 USDCAD,H1: initialized
+0	18:01:45.250	test101 USDCAD,H1: Alert: MA 20 is 1.26415.
+0	18:01:45.250	test101 USDCAD,H1: uninit reason 0
+0	18:01:45.252	Script test101 USDCAD,H1: removed
+0	18:05:55.013	Script test101 USDCAD,H1: loaded successfully
+0	18:05:56.816	test101 USDCAD,H1: initialized
+0	18:05:56.817	test101 USDCAD,H1: Alert: MA 20 is 1.26482.
+0	18:05:56.817	test101 USDCAD,H1: uninit reason 0
+0	18:05:56.819	Script test101 USDCAD,H1: removed
+0	18:06:15.747	Script test101 USDCAD,Daily: loaded successfully
+0	18:06:17.155	test101 USDCAD,Daily: initialized
+0	18:06:17.155	test101 USDCAD,Daily: Alert: MA 20 is 1.26706.
+0	18:06:17.155	test101 USDCAD,Daily: uninit reason 0
+0	18:06:17.157	Script test101 USDCAD,Daily: removed
+0	18:07:46.856	Script test101 USDCAD,Daily: loaded successfully
+0	18:07:48.354	test101 USDCAD,Daily: initialized
+0	18:07:48.380	test101 USDCAD,Daily: Alert: MA 20 is 1.26706.
+0	18:07:48.380	test101 USDCAD,Daily: uninit reason 0
+0	18:07:48.382	Script test101 USDCAD,Daily: removed
+0	18:23:53.288	Script test101 EURUSD,Daily: loaded successfully
+0	18:23:54.836	test101 EURUSD,Daily: initialized
+0	18:23:54.860	test101 EURUSD,Daily: Alert: MA 20 is 1.2099.
+0	18:23:54.860	test101 EURUSD,Daily: uninit reason 0
+0	18:23:54.862	Script test101 EURUSD,Daily: removed
+0	18:24:19.813	Script test101 EURUSD,Daily: loaded successfully
+0	18:24:21.354	test101 EURUSD,Daily: initialized
+0	18:24:21.381	test101 EURUSD,Daily: Alert: MA 20 is 1.20964.
+0	18:24:21.381	test101 EURUSD,Daily: uninit reason 0
+0	18:24:21.382	Script test101 EURUSD,Daily: removed
+0	18:24:47.048	Script test101 EURUSD,Daily: loaded successfully
+0	18:24:48.448	test101 EURUSD,Daily: initialized
+0	18:24:48.448	test101 EURUSD,Daily: Alert: MA 20 is 1.20978.
+0	18:24:48.448	test101 EURUSD,Daily: uninit reason 0
+0	18:24:48.450	Script test101 EURUSD,Daily: removed
+0	18:31:12.716	Script test101 EURUSD,Daily: loaded successfully
+0	18:31:14.288	test101 EURUSD,Daily: initialized
+0	18:31:14.288	test101 EURUSD,Daily: Alert: MA 20 is 1.20978.
+0	18:31:14.288	test101 EURUSD,Daily: uninit reason 0
+0	18:31:14.290	Script test101 EURUSD,Daily: removed
+0	18:31:38.345	Script test101 EURUSD,Daily: loaded successfully
+0	18:31:39.859	test101 EURUSD,Daily: initialized
+0	18:31:39.884	test101 EURUSD,Daily: Alert: MA 20 is 1.20978.
+0	18:31:39.884	test101 EURUSD,Daily: uninit reason 0
+0	18:31:39.885	Script test101 EURUSD,Daily: removed
+0	18:33:32.394	Script test101 EURUSD,Daily: loaded successfully
+0	18:33:33.637	test101 EURUSD,Daily: initialized
+0	18:33:33.663	test101 EURUSD,Daily: Alert: MA 20 is 1.20964.
+0	18:33:33.663	test101 EURUSD,Daily: uninit reason 0
+0	18:33:33.664	Script test101 EURUSD,Daily: removed

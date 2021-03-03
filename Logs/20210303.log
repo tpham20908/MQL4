@@ -1,0 +1,80 @@
+0	10:07:45.919	Script test101 EURUSD,Daily: loaded successfully
+0	10:07:47.676	test101 EURUSD,Daily: initialized
+0	10:07:47.701	test101 EURUSD,Daily: Alert: MA 20 is 1.20964.
+0	10:07:47.701	test101 EURUSD,Daily: uninit reason 0
+0	10:07:47.702	Script test101 EURUSD,Daily: removed
+0	10:08:05.045	Script test101 EURUSD,Daily: loaded successfully
+0	10:08:06.981	test101 EURUSD,Daily: initialized
+0	10:08:06.981	test101 EURUSD,Daily: Alert: MA 20 is 1.20964.
+0	10:08:06.981	test101 EURUSD,Daily: uninit reason 0
+0	10:08:06.983	Script test101 EURUSD,Daily: removed
+0	10:08:30.378	Script test101 EURUSD,Daily: loaded successfully
+0	10:08:32.045	test101 EURUSD,Daily: initialized
+0	10:08:32.045	test101 EURUSD,Daily: Alert: BB Upper value is 1.22.
+0	10:08:32.045	test101 EURUSD,Daily: Alert: BB Main value is 1.20976.
+0	10:08:32.045	test101 EURUSD,Daily: Alert: BB Lower value is 1.19953.
+0	10:08:32.045	test101 EURUSD,Daily: uninit reason 0
+0	10:08:32.046	Script test101 EURUSD,Daily: removed
+0	10:11:27.763	Script test101 USDJPY,H4: loaded successfully
+0	10:11:29.940	test101 USDJPY,H4: initialized
+0	10:11:29.961	test101 USDJPY,H4: Alert: BB Upper value is 107.072.
+0	10:11:29.961	test101 USDJPY,H4: Alert: BB Main value is 106.75.
+0	10:11:29.961	test101 USDJPY,H4: Alert: BB Lower value is 106.428.
+0	10:11:29.961	test101 USDJPY,H4: uninit reason 0
+0	10:11:29.962	Script test101 USDJPY,H4: removed
+0	10:12:46.009	Script test101 EURUSD,Daily: loaded successfully
+0	10:12:47.814	test101 EURUSD,Daily: initialized
+0	10:12:47.838	test101 EURUSD,Daily: Alert: BB Upper value is 1.22001.
+0	10:12:47.838	test101 EURUSD,Daily: Alert: BB Main value is 1.20974.
+0	10:12:47.838	test101 EURUSD,Daily: Alert: BB Lower value is 1.19947.
+0	10:12:47.838	test101 EURUSD,Daily: uninit reason 0
+0	10:12:47.840	Script test101 EURUSD,Daily: removed
+0	10:15:27.228	Script test101 EURUSD,Daily: loaded successfully
+0	10:15:28.996	test101 EURUSD,Daily: initialized
+0	10:15:29.005	test101 EURUSD,Daily: Alert: BB Upper value is 1.22002.
+0	10:15:29.005	test101 EURUSD,Daily: Alert: BB Main value is 1.20973.
+0	10:15:29.005	test101 EURUSD,Daily: Alert: BB Lower value is 1.19945.
+0	10:15:29.005	test101 EURUSD,Daily: uninit reason 0
+0	10:15:29.007	Script test101 EURUSD,Daily: removed
+0	10:16:39.725	Script test101 USDJPY,Daily: loaded successfully
+0	10:16:41.396	test101 USDJPY,Daily: initialized
+0	10:16:41.423	test101 USDJPY,Daily: Alert: BB Upper value is 107.074.
+0	10:16:41.423	test101 USDJPY,Daily: Alert: BB Main value is 105.639.
+0	10:16:41.423	test101 USDJPY,Daily: Alert: BB Lower value is 104.204.
+0	10:16:41.423	test101 USDJPY,Daily: uninit reason 0
+0	10:16:41.425	Script test101 USDJPY,Daily: removed
+0	10:18:53.987	Script test101 EURUSD,Daily: loaded successfully
+0	10:18:56.633	test101 EURUSD,Daily: initialized
+0	10:18:56.638	test101 EURUSD,Daily: Alert: BB Upper value is 1.22011.
+0	10:18:56.638	test101 EURUSD,Daily: Alert: BB Main value is 1.20964.
+0	10:18:56.638	test101 EURUSD,Daily: Alert: BB Lower value is 1.19917.
+0	10:18:56.638	test101 EURUSD,Daily: uninit reason 0
+0	10:18:56.640	Script test101 EURUSD,Daily: removed
+0	10:29:37.141	Custom indicator RSI EURUSD,Daily: loaded successfully
+0	10:29:49.184	RSI EURUSD,Daily: initialized
+0	10:30:06.023	Script test101 EURUSD,Daily: loaded successfully
+0	10:30:08.727	test101 EURUSD,Daily: initialized
+0	10:30:08.729	test101 EURUSD,Daily: Alert: RSI value is 45.94038.
+0	10:30:08.729	test101 EURUSD,Daily: uninit reason 0
+0	10:30:08.731	Script test101 EURUSD,Daily: removed
+0	10:31:17.832	Script test101 USDJPY,Daily: loaded successfully
+0	10:31:19.515	test101 USDJPY,Daily: initialized
+0	10:31:19.539	test101 USDJPY,Daily: Alert: RSI value is 68.279.
+0	10:31:19.539	test101 USDJPY,Daily: uninit reason 0
+0	10:31:19.541	Script test101 USDJPY,Daily: removed
+0	10:31:41.818	Custom indicator RSI USDJPY,Daily: loaded successfully
+0	10:31:47.834	RSI USDJPY,Daily: initialized
+0	10:32:01.380	Custom indicator RSI USDJPY,Daily: loaded successfully
+0	10:32:05.020	RSI USDJPY,Daily: initialized
+0	10:32:17.373	RSI USDJPY,Daily: uninit reason 1
+0	10:32:17.375	Custom indicator RSI USDJPY,Daily: removed
+0	10:32:31.038	Script test101 USDJPY,Daily: loaded successfully
+0	10:32:32.412	test101 USDJPY,Daily: initialized
+0	10:32:32.413	test101 USDJPY,Daily: Alert: RSI value is 71.895.
+0	10:32:32.413	test101 USDJPY,Daily: uninit reason 0
+0	10:32:32.414	Script test101 USDJPY,Daily: removed
+0	10:32:55.241	Script test101 EURUSD,Daily: loaded successfully
+0	10:32:57.122	test101 EURUSD,Daily: initialized
+0	10:32:57.135	test101 EURUSD,Daily: Alert: RSI value is 44.29312.
+0	10:32:57.135	test101 EURUSD,Daily: uninit reason 0
+0	10:32:57.138	Script test101 EURUSD,Daily: removed
