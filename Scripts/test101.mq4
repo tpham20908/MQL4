@@ -30,5 +30,31 @@ void OnStart(){
    // Alert("Previous RSI value is " + NormalizeDouble(prevRsi, 2) + ".");
 
    // Alert("Is trade allowed #1: ", IsTradeAllowed());
-   Alert("Is trade allowed #2: ", IsTradeAllowed(NULL, TimeCurrent()) ? "Allowed" : "Not allowed");
+   // Alert("Is trade allowed #2: ", IsTradeAllowed(NULL, TimeCurrent()) ? "Allowed" : "Not allowed");
+   
+   // Check account type and minimum lot can be traded
+   // Alert(SymbolInfoDouble(Symbol(), SYMBOL_TRADE_CONTRACT_SIZE));
+   // Alert(MarketInfo(Symbol(), MODE_MINLOT));
+   
+   // Sending order
+   // Alert("Account balance: ", AccountBalance());
+   // Alert("Is trade allowed: ", IsTradeAllowed());
+   // Alert("Point: ", _Point);
+   
+   //--- get minimum stop level
+   double minstoplevel = MarketInfo(_Symbol, MODE_STOPLEVEL);
+   // Alert("Minimum Stop Level=", minstoplevel, " points");
+   double price = Ask;
+   //--- calculated SL and TP prices must be normalized
+   double stoploss = NormalizeDouble(Bid - minstoplevel * Point, Digits);
+   double takeprofit = NormalizeDouble(Bid + minstoplevel * Point, Digits);
+   //--- place market order to buy 1 lot
+   int ticket = OrderSend(_Symbol, OP_BUYLIMIT, 0.1, Ask, 3, Ask - 100 * _Point, Ask + 150 * _Point, NULL, 0, 0, Green);
+   // int ticket=OrderSend(Symbol(), OP_BUY, 0.1, price, 3, stoploss, takeprofit, "My order", 0 , 0, clrGreen);
+   if (ticket < 0) {
+     Alert("Order send failed with error #", GetLastError());
+   } else {
+     Alert("Order send successfully");
+     Comment("Ticket: ", ticket);
+   }
 }

@@ -78,3 +78,389 @@
 0	10:32:57.135	test101 EURUSD,Daily: Alert: RSI value is 44.29312.
 0	10:32:57.135	test101 EURUSD,Daily: uninit reason 0
 0	10:32:57.138	Script test101 EURUSD,Daily: removed
+0	10:35:27.362	Script test101 USDCHF,H1: loaded successfully
+0	10:35:37.648	Script test101 USDCHF,H1: removed
+0	10:35:45.542	Script test101 EURUSD,Daily: loaded successfully
+0	10:35:47.347	test101 EURUSD,Daily: initialized
+0	10:35:47.347	test101 EURUSD,Daily: Alert: RSI value is 44.67.
+0	10:35:47.347	test101 EURUSD,Daily: uninit reason 0
+0	10:35:47.349	Script test101 EURUSD,Daily: removed
+0	10:36:04.189	Script test101 EURUSD,Daily: loaded successfully
+0	10:36:06.344	test101 EURUSD,Daily: initialized
+0	10:36:06.345	test101 EURUSD,Daily: Alert: RSI value is 44.71.
+0	10:36:06.345	test101 EURUSD,Daily: uninit reason 0
+0	10:36:06.346	Script test101 EURUSD,Daily: removed
+0	10:36:58.407	Script test101 EURUSD,Daily: loaded successfully
+0	10:36:59.999	test101 EURUSD,Daily: initialized
+0	10:37:00.010	test101 EURUSD,Daily: Alert: RSI value is 44.74.
+0	10:37:00.011	test101 EURUSD,Daily: uninit reason 0
+0	10:37:00.012	Script test101 EURUSD,Daily: removed
+0	10:37:25.705	RSI EURUSD,Daily: uninit reason 3
+0	10:37:25.705	RSI EURUSD,M15: initialized
+0	10:37:36.361	Script test101 EURUSD,M15: loaded successfully
+0	10:37:38.119	test101 EURUSD,M15: initialized
+0	10:37:38.123	test101 EURUSD,M15: Alert: RSI value is 47.89.
+0	10:37:38.123	test101 EURUSD,M15: uninit reason 0
+0	10:37:38.124	Script test101 EURUSD,M15: removed
+0	10:37:53.602	Script test101 EURUSD,M15: loaded successfully
+0	10:37:56.206	test101 EURUSD,M15: initialized
+0	10:37:56.207	test101 EURUSD,M15: Alert: RSI value is 46.82.
+0	10:37:56.207	test101 EURUSD,M15: uninit reason 0
+0	10:37:56.208	Script test101 EURUSD,M15: removed
+0	10:38:13.994	Script test101 EURUSD,M15: loaded successfully
+0	10:38:15.633	test101 EURUSD,M15: initialized
+0	10:38:15.663	test101 EURUSD,M15: Alert: RSI value is 47.07.
+0	10:38:15.663	test101 EURUSD,M15: uninit reason 0
+0	10:38:15.664	Script test101 EURUSD,M15: removed
+0	10:40:17.580	Script test101 EURUSD,M15: loaded successfully
+0	10:40:19.534	test101 EURUSD,M15: initialized
+0	10:40:19.534	test101 EURUSD,M15: Alert: RSI value is 46.32.
+0	10:40:19.534	test101 EURUSD,M15: uninit reason 0
+0	10:40:19.535	Script test101 EURUSD,M15: removed
+0	10:41:51.846	Script test101 EURUSD,M15: loaded successfully
+0	10:41:53.605	test101 EURUSD,M15: initialized
+0	10:41:53.628	test101 EURUSD,M15: Alert: RSI value is 46.91.
+0	10:41:53.628	test101 EURUSD,M15: uninit reason 0
+0	10:41:53.629	Script test101 EURUSD,M15: removed
+0	10:44:40.856	Script test101 EURUSD,M15: loaded successfully
+0	10:44:43.361	test101 EURUSD,M15: initialized
+0	10:44:43.362	test101 EURUSD,M15: Alert: Current RSI value is 43.25.
+0	10:44:43.362	test101 EURUSD,M15: Alert: Previous RSI value is 37.93.
+0	10:44:43.362	test101 EURUSD,M15: uninit reason 0
+0	10:44:43.363	Script test101 EURUSD,M15: removed
+0	10:45:00.357	RSI EURUSD,M15: uninit reason 3
+0	10:45:00.358	RSI EURUSD,M1: initialized
+0	12:01:49.498	RSI EURUSD,M1: uninit reason 1
+0	12:01:49.500	Custom indicator RSI EURUSD,M1: removed
+0	12:04:14.069	Custom indicator Bands EURUSD,M30: loaded successfully
+0	12:04:35.802	Bands EURUSD,M30: initialized
+0	13:59:43.641	RSI USDJPY,Daily: uninit reason 1
+0	13:59:43.643	Custom indicator RSI USDJPY,Daily: removed
+0	14:01:25.985	Script test101 USDCAD,Daily: loaded successfully
+0	14:01:29.922	Script test101 USDCAD,Daily: removed
+0	14:01:32.407	Script BBIndicator USDCAD,Daily: loaded successfully
+0	14:01:32.419	BBIndicator USDCAD,Daily: initialized
+0	14:01:32.419	BBIndicator USDCAD,Daily: uninit reason 0
+0	14:01:32.421	Script BBIndicator USDCAD,Daily: removed
+0	14:01:34.978	Script BBIndicator USDCAD,Daily: loaded successfully
+0	14:01:34.991	BBIndicator USDCAD,Daily: initialized
+0	14:01:34.991	BBIndicator USDCAD,Daily: uninit reason 0
+0	14:01:34.992	Script BBIndicator USDCAD,Daily: removed
+0	14:02:35.825	Script BBIndicator USDCAD,Daily: loaded successfully
+0	14:02:35.841	BBIndicator USDCAD,Daily: initialized
+0	14:02:35.842	BBIndicator USDCAD,Daily: Alert: Starting...
+0	14:02:35.842	BBIndicator USDCAD,Daily: uninit reason 0
+0	14:02:35.843	Script BBIndicator USDCAD,Daily: removed
+0	14:02:45.762	Script BBIndicator EURUSD,M30: loaded successfully
+0	14:02:45.779	BBIndicator EURUSD,M30: initialized
+0	14:02:45.781	BBIndicator EURUSD,M30: Alert: Starting...
+0	14:02:45.781	BBIndicator EURUSD,M30: uninit reason 0
+0	14:02:45.782	Script BBIndicator EURUSD,M30: removed
+0	14:03:19.296	Custom indicator Bands USDJPY,Daily: loaded successfully
+0	14:04:03.676	Bands USDJPY,Daily: initialized
+0	14:04:15.865	Custom indicator Bands USDJPY,Daily: loaded successfully
+0	14:04:25.734	Bands USDJPY,Daily: initialized
+0	14:04:36.875	Script BBIndicator USDJPY,Daily: loaded successfully
+0	14:04:36.890	BBIndicator USDJPY,Daily: initialized
+0	14:04:36.914	BBIndicator USDJPY,Daily: Alert: Starting...
+0	14:04:36.918	BBIndicator USDJPY,Daily: Alert: Price is above bbLower1, Sending short order...
+0	14:04:36.918	BBIndicator USDJPY,Daily: Alert: Entry Price = 106.957
+0	14:04:36.918	BBIndicator USDJPY,Daily: Alert: Stop Loss Price = 108.4613932087331
+0	14:04:36.918	BBIndicator USDJPY,Daily: Alert: Take Profit Price = 105.6334999999998
+0	14:04:36.918	BBIndicator USDJPY,Daily: uninit reason 0
+0	14:04:36.920	Script BBIndicator USDJPY,Daily: removed
+0	14:53:52.990	Script BBIndicator USDJPY,Daily: loaded successfully
+0	14:53:53.006	BBIndicator USDJPY,Daily: initialized
+0	14:53:53.012	BBIndicator USDJPY,Daily: Alert: Starting...
+0	14:53:53.015	BBIndicator USDJPY,Daily: Alert: Price is above bbLower1, Sending short order...
+0	14:53:53.016	BBIndicator USDJPY,Daily: Alert: Entry Price = 106.942
+0	14:53:53.016	BBIndicator USDJPY,Daily: Alert: Stop Loss Price = 108.4550517202275
+0	14:53:53.016	BBIndicator USDJPY,Daily: Alert: Take Profit Price = 105.6327499999998
+0	14:53:53.016	BBIndicator USDJPY,Daily: Alert: Error code: 0
+0	14:53:53.016	BBIndicator USDJPY,Daily: uninit reason 0
+0	14:53:53.019	Script BBIndicator USDJPY,Daily: removed
+0	14:54:17.630	Script BBIndicator EURUSD,M30: loaded successfully
+0	14:54:17.642	BBIndicator EURUSD,M30: initialized
+0	14:54:17.648	BBIndicator EURUSD,M30: Alert: Starting...
+0	14:54:17.648	BBIndicator EURUSD,M30: Alert: Error code: 0
+0	14:54:17.648	BBIndicator EURUSD,M30: uninit reason 0
+0	14:54:17.651	Script BBIndicator EURUSD,M30: removed
+0	14:54:28.177	Script BBIndicator USDCAD,Daily: loaded successfully
+0	14:54:28.194	BBIndicator USDCAD,Daily: initialized
+0	14:54:28.197	BBIndicator USDCAD,Daily: Alert: Starting...
+0	14:54:28.201	BBIndicator USDCAD,Daily: Alert: Error code: 0
+0	14:54:28.201	BBIndicator USDCAD,Daily: uninit reason 0
+0	14:54:28.204	Script BBIndicator USDCAD,Daily: removed
+0	14:54:51.572	Script BBIndicator USDJPY,Daily: loaded successfully
+0	14:54:51.584	BBIndicator USDJPY,Daily: initialized
+0	14:54:51.604	BBIndicator USDJPY,Daily: Alert: Starting...
+0	14:54:51.607	BBIndicator USDJPY,Daily: Alert: Price is above bbLower1, Sending short order...
+0	14:54:51.607	BBIndicator USDJPY,Daily: Alert: Entry Price = 106.935
+0	14:54:51.607	BBIndicator USDJPY,Daily: Alert: Stop Loss Price = 108.4521093183516
+0	14:54:51.607	BBIndicator USDJPY,Daily: Alert: Take Profit Price = 105.6323999999998
+0	14:54:51.607	BBIndicator USDJPY,Daily: Alert: Error code: 0
+0	14:54:51.607	BBIndicator USDJPY,Daily: uninit reason 0
+0	14:54:51.609	Script BBIndicator USDJPY,Daily: removed
+0	15:48:40.491	Script test101 USDJPY,Daily: loaded successfully
+0	15:48:42.202	test101 USDJPY,Daily: initialized
+0	15:48:42.202	test101 USDJPY,Daily: Alert: Is trade allowed: true
+0	15:48:42.202	test101 USDJPY,Daily: uninit reason 0
+0	15:48:42.203	Script test101 USDJPY,Daily: removed
+0	15:48:47.086	Automated trading disabled
+0	15:48:48.942	Script test101 USDJPY,Daily: loaded successfully
+0	15:48:50.734	test101 USDJPY,Daily: initialized
+0	15:48:50.761	test101 USDJPY,Daily: Alert: Is trade allowed: false
+0	15:48:50.761	test101 USDJPY,Daily: uninit reason 0
+0	15:48:50.763	Script test101 USDJPY,Daily: removed
+0	15:48:53.949	Automated trading enabled
+0	15:53:31.245	Script test101 USDJPY,Daily: loaded successfully
+0	15:53:33.049	test101 USDJPY,Daily: initialized
+0	15:53:33.076	test101 USDJPY,Daily: Alert: Is trade allowed #2: true
+0	15:53:33.076	test101 USDJPY,Daily: uninit reason 0
+0	15:53:33.078	Script test101 USDJPY,Daily: removed
+0	15:53:45.269	Script test101 EURUSD,M30: loaded successfully
+0	15:53:46.902	test101 EURUSD,M30: initialized
+0	15:53:46.929	test101 EURUSD,M30: Alert: Is trade allowed #2: true
+0	15:53:46.929	test101 EURUSD,M30: uninit reason 0
+0	15:53:46.931	Script test101 EURUSD,M30: removed
+0	15:53:54.035	Script test101 USDCAD,Daily: loaded successfully
+0	15:53:56.225	test101 USDCAD,Daily: initialized
+0	15:53:56.257	test101 USDCAD,Daily: Alert: Is trade allowed #2: true
+0	15:53:56.257	test101 USDCAD,Daily: uninit reason 0
+0	15:53:56.259	Script test101 USDCAD,Daily: removed
+0	16:30:01.055	Script test101 USDCAD,Daily: loaded successfully
+0	16:30:03.224	test101 USDCAD,Daily: initialized
+0	16:30:03.250	test101 USDCAD,Daily: Alert: Is trade allowed #2: Allowed
+0	16:30:03.250	test101 USDCAD,Daily: uninit reason 0
+0	16:30:03.252	Script test101 USDCAD,Daily: removed
+0	16:30:11.355	Automated trading disabled
+0	16:30:13.051	Script test101 USDCAD,Daily: loaded successfully
+0	16:30:14.882	test101 USDCAD,Daily: initialized
+0	16:30:14.883	test101 USDCAD,Daily: Alert: Is trade allowed #2: Not allowed
+0	16:30:14.883	test101 USDCAD,Daily: uninit reason 0
+0	16:30:14.884	Script test101 USDCAD,Daily: removed
+0	16:46:35.673	Script BBIndicator USDCAD,Daily: loaded successfully
+0	16:46:35.690	BBIndicator USDCAD,Daily: initialized
+0	16:46:35.695	BBIndicator USDCAD,Daily: Alert: Starting...
+0	16:46:35.699	BBIndicator USDCAD,Daily: Alert: Error code: 0
+0	16:46:35.699	BBIndicator USDCAD,Daily: uninit reason 0
+0	16:46:35.702	Script BBIndicator USDCAD,Daily: removed
+0	17:01:12.944	Script test101 USDCAD,Daily: loaded successfully
+0	17:01:14.821	test101 USDCAD,Daily: initialized
+0	17:01:14.836	test101 USDCAD,Daily: Alert: 100000.0
+0	17:01:14.836	test101 USDCAD,Daily: uninit reason 0
+0	17:01:14.838	Script test101 USDCAD,Daily: removed
+0	17:11:02.010	Script test101 USDCAD,Daily: loaded successfully
+0	17:11:03.707	test101 USDCAD,Daily: initialized
+0	17:11:03.707	test101 USDCAD,Daily: Alert: 0.01
+0	17:11:03.707	test101 USDCAD,Daily: uninit reason 0
+0	17:11:03.709	Script test101 USDCAD,Daily: removed
+0	17:11:17.787	Script test101 USDCAD,Daily: loaded successfully
+0	17:11:20.047	test101 USDCAD,Daily: initialized
+0	17:11:20.073	test101 USDCAD,Daily: Alert: 100000.0
+0	17:11:20.073	test101 USDCAD,Daily: Alert: 0.01
+0	17:11:20.073	test101 USDCAD,Daily: uninit reason 0
+0	17:11:20.074	Script test101 USDCAD,Daily: removed
+0	17:12:01.288	Script test101 USDCAD,Daily: loaded successfully
+0	17:12:02.967	test101 USDCAD,Daily: initialized
+0	17:12:02.967	test101 USDCAD,Daily: Alert: 100000.0
+0	17:12:02.967	test101 USDCAD,Daily: Alert: 0.01
+0	17:12:02.967	test101 USDCAD,Daily: uninit reason 0
+0	17:12:02.968	Script test101 USDCAD,Daily: removed
+0	20:36:46.649	Script test101 USDCAD,Daily: loaded successfully
+0	20:36:48.634	test101 USDCAD,Daily: initialized
+3	20:36:48.634	test101 USDCAD,Daily: trade operations not allowed by settings
+0	20:36:48.667	test101 USDCAD,Daily: Alert: 4109
+0	20:36:48.667	test101 USDCAD,Daily: uninit reason 0
+0	20:36:48.668	Script test101 USDCAD,Daily: removed
+0	20:38:07.356	Script test101 USDCAD,Daily: loaded successfully
+0	20:38:08.932	test101 USDCAD,Daily: initialized
+0	20:38:08.933	test101 USDCAD,Daily: Alert: Account balance: 500.0
+0	20:38:08.933	test101 USDCAD,Daily: Alert: Sending order: 
+3	20:38:08.933	test101 USDCAD,Daily: trade operations not allowed by settings
+0	20:38:08.933	test101 USDCAD,Daily: Alert: Error code: 4109
+0	20:38:08.933	test101 USDCAD,Daily: uninit reason 0
+0	20:38:08.934	Script test101 USDCAD,Daily: removed
+0	20:39:31.756	Script test101 USDCAD,Daily: loaded successfully
+0	20:39:33.789	test101 USDCAD,Daily: initialized
+0	20:39:33.816	test101 USDCAD,Daily: Alert: Account balance: 500.0
+0	20:39:33.816	test101 USDCAD,Daily: Alert: Is trade allowed: false
+0	20:39:33.816	test101 USDCAD,Daily: Alert: Sending order: 
+0	20:39:33.819	test101 USDCAD,Daily: Alert: Error code: 0
+0	20:39:33.819	test101 USDCAD,Daily: uninit reason 0
+0	20:39:33.821	Script test101 USDCAD,Daily: removed
+0	20:39:41.647	Automated trading enabled
+0	20:39:44.955	Script test101 USDCAD,Daily: loaded successfully
+0	20:39:46.693	test101 USDCAD,Daily: initialized
+0	20:39:46.694	test101 USDCAD,Daily: Alert: Account balance: 500.0
+0	20:39:46.694	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	20:39:46.694	test101 USDCAD,Daily: Alert: Sending order: 
+2	20:39:46.746	test101 USDCAD,Daily: open #169438078 buy limit 0.10 USDCAD at 1.26585 tp: 1.26735 ok
+0	20:39:46.746	test101 USDCAD,Daily: Alert: Error code: 0
+0	20:39:46.746	test101 USDCAD,Daily: uninit reason 0
+0	20:39:46.748	Script test101 USDCAD,Daily: removed
+0	20:48:23.126	Script test101 USDCAD,Daily: loaded successfully
+0	20:48:24.748	test101 USDCAD,Daily: initialized
+0	20:48:24.781	test101 USDCAD,Daily: Alert: Account balance: 500.0
+0	20:48:24.781	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	20:48:24.781	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	20:48:24.860	test101 USDCAD,Daily: open #169438284 buy limit 0.10 USDCAD at 1.26588 sl: 1.26488 tp: 1.26738 ok
+0	20:48:24.860	test101 USDCAD,Daily: Alert: Error code: 0
+0	20:48:24.860	test101 USDCAD,Daily: uninit reason 0
+0	20:48:24.863	Script test101 USDCAD,Daily: removed
+0	20:52:48.435	Script test101 USDCAD,Daily: loaded successfully
+0	20:52:50.071	test101 USDCAD,Daily: initialized
+0	20:52:50.072	test101 USDCAD,Daily: Alert: Account balance: 495.0
+0	20:52:50.072	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	20:52:50.072	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	20:52:50.124	test101 USDCAD,Daily: open #169438385 buy limit 0.10 USDCAD at 1.26547 sl: 1.26447 tp: 1.26697 ok
+0	20:52:50.124	test101 USDCAD,Daily: Alert: Error code: 0
+0	20:52:50.124	test101 USDCAD,Daily: uninit reason 0
+0	20:52:50.125	Script test101 USDCAD,Daily: removed
+0	20:57:05.317	Script test101 EURUSD,M30: loaded successfully
+0	20:57:07.026	test101 EURUSD,M30: initialized
+0	20:57:07.034	test101 EURUSD,M30: Alert: Account balance: 495.0
+0	20:57:07.034	test101 EURUSD,M30: Alert: Is trade allowed: true
+0	20:57:07.034	test101 EURUSD,M30: Alert: Point: 1e-05
+2	20:57:07.085	test101 EURUSD,M30: open #169438457 buy limit 1.00 EURUSD at 1.20589 sl: 1.20489 tp: 1.20739 ok
+0	20:57:07.085	test101 EURUSD,M30: Alert: Error code: 0
+0	20:57:07.085	test101 EURUSD,M30: uninit reason 0
+0	20:57:07.087	Script test101 EURUSD,M30: removed
+0	20:57:31.106	Script test101 EURUSD,M30: loaded successfully
+0	20:57:33.377	test101 EURUSD,M30: initialized
+0	20:57:33.377	test101 EURUSD,M30: Alert: Account balance: 495.0
+0	20:57:33.377	test101 EURUSD,M30: Alert: Is trade allowed: true
+0	20:57:33.377	test101 EURUSD,M30: Alert: Point: 1e-05
+2	20:57:33.418	test101 EURUSD,M30: open #169438459 buy limit 1.00 EURUSD at 1.20598 sl: 1.20498 tp: 1.20748 ok
+0	20:57:33.418	test101 EURUSD,M30: Alert: Error code: 0
+0	20:57:33.418	test101 EURUSD,M30: uninit reason 0
+0	20:57:33.419	Script test101 EURUSD,M30: removed
+0	20:58:00.193	Script test101 USDJPY,Daily: loaded successfully
+0	20:58:02.332	test101 USDJPY,Daily: initialized
+0	20:58:02.332	test101 USDJPY,Daily: Alert: Account balance: 495.0
+0	20:58:02.332	test101 USDJPY,Daily: Alert: Is trade allowed: true
+0	20:58:02.332	test101 USDJPY,Daily: Alert: Point: 0.001
+2	20:58:02.383	test101 USDJPY,Daily: open #169438463 buy limit 1.00 USDJPY at 107.037 sl: 106.937 tp: 107.187 ok
+0	20:58:02.383	test101 USDJPY,Daily: Alert: Error code: 0
+0	20:58:02.383	test101 USDJPY,Daily: uninit reason 0
+0	20:58:02.386	Script test101 USDJPY,Daily: removed
+0	20:58:22.486	Script test101 USDJPY,Daily: loaded successfully
+0	20:58:24.220	test101 USDJPY,Daily: initialized
+0	20:58:24.220	test101 USDJPY,Daily: Alert: Account balance: 495.0
+0	20:58:24.220	test101 USDJPY,Daily: Alert: Is trade allowed: true
+0	20:58:24.220	test101 USDJPY,Daily: Alert: Point: 0.001
+2	20:58:24.274	test101 USDJPY,Daily: open #169438464 buy limit 1.00 USDJPY at 107.034 sl: 106.934 tp: 107.184 ok
+0	20:58:24.274	test101 USDJPY,Daily: Alert: Error code: 0
+0	20:58:24.274	test101 USDJPY,Daily: uninit reason 0
+0	20:58:24.276	Script test101 USDJPY,Daily: removed
+0	20:59:52.204	Script test101 USDCAD,Daily: loaded successfully
+0	20:59:54.335	test101 USDCAD,Daily: initialized
+0	20:59:54.335	test101 USDCAD,Daily: Alert: Account balance: 495.0
+0	20:59:54.335	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	20:59:54.336	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	20:59:54.384	test101 USDCAD,Daily: open #169438483 buy limit 1.00 USDCAD at 1.26531 sl: 1.26431 tp: 1.26681 ok
+0	20:59:54.384	test101 USDCAD,Daily: Alert: Error code: 0
+0	20:59:54.384	test101 USDCAD,Daily: uninit reason 0
+0	20:59:54.386	Script test101 USDCAD,Daily: removed
+0	21:00:16.183	Script test101 USDCAD,Daily: loaded successfully
+0	21:00:18.030	test101 USDCAD,Daily: initialized
+0	21:00:18.030	test101 USDCAD,Daily: Alert: Account balance: 495.0
+0	21:00:18.030	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	21:00:18.030	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	21:00:18.080	test101 USDCAD,Daily: open #169438787 buy limit 1.00 USDCAD at 1.26531 sl: 1.26431 tp: 1.26681 ok
+0	21:00:18.080	test101 USDCAD,Daily: Alert: Error code: 0
+0	21:00:18.080	test101 USDCAD,Daily: uninit reason 0
+0	21:00:18.081	Script test101 USDCAD,Daily: removed
+0	21:00:39.335	Script test101 USDCAD,Daily: loaded successfully
+0	21:00:40.890	test101 USDCAD,Daily: initialized
+0	21:00:40.915	test101 USDCAD,Daily: Alert: Account balance: 492.7
+0	21:00:40.915	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	21:00:40.915	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	21:00:41.077	test101 USDCAD,Daily: open #169438865 buy limit 1.00 USDCAD at 1.26532 sl: 1.26432 tp: 1.26682 ok
+0	21:00:41.077	test101 USDCAD,Daily: Alert: Error code: 0
+0	21:00:41.077	test101 USDCAD,Daily: uninit reason 0
+0	21:00:41.080	Script test101 USDCAD,Daily: removed
+0	21:00:54.662	Script test101 USDCAD,Daily: loaded successfully
+0	21:00:56.966	test101 USDCAD,Daily: initialized
+0	21:00:56.967	test101 USDCAD,Daily: Alert: Account balance: 492.7
+0	21:00:56.967	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	21:00:56.967	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	21:00:57.015	test101 USDCAD,Daily: open #169438876 buy limit 1.00 USDCAD at 1.26539 sl: 1.26439 tp: 1.26689 ok
+0	21:00:57.015	test101 USDCAD,Daily: Alert: Error code: 0
+0	21:00:57.015	test101 USDCAD,Daily: uninit reason 0
+0	21:00:57.018	Script test101 USDCAD,Daily: removed
+0	21:01:45.787	Script test101 EURUSD,M30: loaded successfully
+0	21:01:47.604	test101 EURUSD,M30: initialized
+0	21:01:47.636	test101 EURUSD,M30: Alert: Account balance: 492.7
+0	21:01:47.636	test101 EURUSD,M30: Alert: Is trade allowed: true
+0	21:01:47.636	test101 EURUSD,M30: Alert: Point: 1e-05
+2	21:01:47.685	test101 EURUSD,M30: open #169438892 buy limit 1.00 EURUSD at 1.20606 sl: 1.20506 tp: 1.20756 ok
+0	21:01:47.685	test101 EURUSD,M30: Alert: Error code: 0
+0	21:01:47.685	test101 EURUSD,M30: uninit reason 0
+0	21:01:47.687	Script test101 EURUSD,M30: removed
+0	21:02:05.323	Bands EURUSD,M30: uninit reason 9
+0	21:02:05.323	Bands USDJPY,Daily: uninit reason 9
+0	21:02:05.323	Bands USDJPY,Daily: uninit reason 9
+0	21:02:05.429	Custom indicator Bands EURUSD,M30: removed
+0	21:02:05.438	Custom indicator Bands USDJPY,Daily: removed
+0	21:02:05.439	Custom indicator Bands USDJPY,Daily: removed
+0	21:02:17.101	Custom indicator Bands EURUSD,M30: loaded successfully
+0	21:02:17.114	Bands EURUSD,M30: initialized
+0	21:02:17.252	Custom indicator Bands USDJPY,Daily: loaded successfully
+0	21:02:17.262	Custom indicator Bands USDJPY,Daily: loaded successfully
+0	21:02:17.275	Bands USDJPY,Daily: initialized
+0	21:02:17.286	Bands USDJPY,Daily: initialized
+0	21:02:34.789	Script test101 EURUSD,M30: loaded successfully
+0	21:02:36.607	test101 EURUSD,M30: initialized
+0	21:02:36.607	test101 EURUSD,M30: Alert: Account balance: 492.7
+0	21:02:36.607	test101 EURUSD,M30: Alert: Is trade allowed: true
+0	21:02:36.607	test101 EURUSD,M30: Alert: Point: 1e-05
+2	21:02:36.655	test101 EURUSD,M30: open #169438928 buy limit 1.00 EURUSD at 1.20594 sl: 1.20494 tp: 1.20744 ok
+0	21:02:36.655	test101 EURUSD,M30: Alert: Error code: 0
+0	21:02:36.655	test101 EURUSD,M30: uninit reason 0
+0	21:02:36.657	Script test101 EURUSD,M30: removed
+0	21:02:57.046	Script test101 EURUSD,M30: loaded successfully
+0	21:02:58.457	test101 EURUSD,M30: initialized
+0	21:02:58.482	test101 EURUSD,M30: Alert: Account balance: 492.7
+0	21:02:58.482	test101 EURUSD,M30: Alert: Is trade allowed: true
+0	21:02:58.482	test101 EURUSD,M30: Alert: Point: 1e-05
+2	21:02:58.542	test101 EURUSD,M30: open #169438946 buy limit 0.10 EURUSD at 1.20608 sl: 1.20508 tp: 1.20758 ok
+0	21:02:58.542	test101 EURUSD,M30: Alert: Error code: 0
+0	21:02:58.542	test101 EURUSD,M30: uninit reason 0
+0	21:02:58.545	Script test101 EURUSD,M30: removed
+0	21:03:14.208	Script test101 USDCAD,Daily: loaded successfully
+0	21:03:15.790	test101 USDCAD,Daily: initialized
+0	21:03:15.816	test101 USDCAD,Daily: Alert: Account balance: 492.7
+0	21:03:15.816	test101 USDCAD,Daily: Alert: Is trade allowed: true
+0	21:03:15.816	test101 USDCAD,Daily: Alert: Point: 1e-05
+2	21:03:15.920	test101 USDCAD,Daily: open #169438963 buy limit 0.10 USDCAD at 1.26509 sl: 1.26409 tp: 1.26659 ok
+0	21:03:15.920	test101 USDCAD,Daily: Alert: Error code: 0
+0	21:03:15.920	test101 USDCAD,Daily: uninit reason 0
+0	21:03:15.922	Script test101 USDCAD,Daily: removed
+0	21:03:30.363	Script test101 USDJPY,Daily: loaded successfully
+0	21:03:32.240	test101 USDJPY,Daily: initialized
+0	21:03:32.268	test101 USDJPY,Daily: Alert: Account balance: 492.7
+0	21:03:32.268	test101 USDJPY,Daily: Alert: Is trade allowed: true
+0	21:03:32.268	test101 USDJPY,Daily: Alert: Point: 0.001
+2	21:03:32.330	test101 USDJPY,Daily: open #169438966 buy limit 0.10 USDJPY at 107.038 sl: 106.938 tp: 107.188 ok
+0	21:03:32.330	test101 USDJPY,Daily: Alert: Error code: 0
+0	21:03:32.330	test101 USDJPY,Daily: uninit reason 0
+0	21:03:32.332	Script test101 USDJPY,Daily: removed
+0	21:04:22.998	Bands EURUSD,M30: uninit reason 9
+0	21:04:22.998	Bands USDJPY,Daily: uninit reason 9
+0	21:04:22.998	Bands USDJPY,Daily: uninit reason 9
+0	21:04:23.083	Custom indicator Bands EURUSD,M30: removed
+0	21:04:23.109	Custom indicator Bands USDJPY,Daily: removed
+0	21:04:23.111	Custom indicator Bands USDJPY,Daily: removed
+0	22:10:42.750	Custom indicator Bands EURUSD,M30: loaded successfully
+0	22:10:42.766	Bands EURUSD,M30: initialized
+0	22:10:42.900	Custom indicator Bands USDJPY,Daily: loaded successfully
+0	22:10:42.910	Custom indicator Bands USDJPY,Daily: loaded successfully
+0	22:10:42.922	Bands USDJPY,Daily: initialized
+0	22:10:42.932	Bands USDJPY,Daily: initialized
+0	22:43:14.328	Bands EURUSD,M30: uninit reason 9
+0	22:43:14.328	Bands USDJPY,Daily: uninit reason 9
+0	22:43:14.328	Bands USDJPY,Daily: uninit reason 9
+0	22:43:14.407	Custom indicator Bands EURUSD,M30: removed
+0	22:43:14.428	Custom indicator Bands USDJPY,Daily: removed
+0	22:43:14.430	Custom indicator Bands USDJPY,Daily: removed
