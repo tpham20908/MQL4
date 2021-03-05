@@ -4,3 +4,83 @@
 0	17:51:14.744	Custom indicator Bands USDJPY,Daily: loaded successfully
 0	17:51:14.757	Bands USDJPY,Daily: initialized
 0	17:51:14.768	Bands USDJPY,Daily: initialized
+0	18:18:12.551	Script test101 USDCAD,Daily: loaded successfully
+0	18:18:14.639	test101 USDCAD,Daily: initialized
+2	18:18:14.756	test101 USDCAD,Daily: open #169508667 buy limit 0.10 USDCAD at 1.26735 sl: 1.26635 tp: 1.26885 ok
+0	18:18:14.756	test101 USDCAD,Daily: Alert: Error code: 0
+0	18:18:14.756	test101 USDCAD,Daily: uninit reason 0
+0	18:18:14.758	Script test101 USDCAD,Daily: removed
+0	18:19:05.374	Script test101 USDJPY,Daily: loaded successfully
+0	18:19:07.246	test101 USDJPY,Daily: initialized
+2	18:19:07.355	test101 USDJPY,Daily: open #169508672 buy limit 0.10 USDJPY at 107.956 sl: 107.856 tp: 108.106 ok
+0	18:19:07.355	test101 USDJPY,Daily: Alert: Error code: 0
+0	18:19:07.355	test101 USDJPY,Daily: uninit reason 0
+0	18:19:07.357	Script test101 USDJPY,Daily: removed
+0	18:38:59.573	Script test101 EURUSD,M30: loaded successfully
+0	18:39:01.704	test101 EURUSD,M30: initialized
+0	18:39:01.725	test101 EURUSD,M30: Alert: Minimum Stop Level=0.0 points
+2	18:39:01.767	test101 EURUSD,M30: open #169508987 buy 0.10 EURUSD at 1.19663 sl: 1.19661 tp: 1.19661 ok
+0	18:39:01.767	test101 EURUSD,M30: Alert: Order send successfully
+0	18:39:01.767	test101 EURUSD,M30: uninit reason 0
+0	18:39:01.769	Script test101 EURUSD,M30: removed
+0	18:40:46.030	Script test101 EURUSD,M30: loaded successfully
+0	18:40:47.785	test101 EURUSD,M30: initialized
+0	18:40:47.786	test101 EURUSD,M30: Alert: Minimum Stop Level=0.0 points
+2	18:40:47.845	test101 EURUSD,M30: open #169509011 buy 0.10 EURUSD at 1.19657 sl: 1.19654 tp: 1.19654 ok
+0	18:40:47.845	test101 EURUSD,M30: Alert: Order send successfully
+0	18:40:47.845	test101 EURUSD,M30: uninit reason 0
+0	18:40:47.847	Script test101 EURUSD,M30: removed
+0	18:41:40.271	Script test101 EURUSD,M30: loaded successfully
+0	18:41:42.266	test101 EURUSD,M30: initialized
+0	18:41:42.287	test101 EURUSD,M30: Alert: Minimum Stop Level=0.0 points
+2	18:41:42.357	test101 EURUSD,M30: open #169509022 buy 0.10 EURUSD at 1.19664 sl: 1.19662 tp: 1.19662 ok
+0	18:41:42.357	test101 EURUSD,M30: Alert: Order send successfully
+0	18:41:42.357	test101 EURUSD,M30: uninit reason 0
+0	18:41:42.359	Script test101 EURUSD,M30: removed
+0	18:43:16.992	Script test101 EURUSD,M30: loaded successfully
+0	18:43:18.684	test101 EURUSD,M30: initialized
+0	18:43:18.711	test101 EURUSD,M30: Alert: Minimum Stop Level=1.0 points
+2	18:43:18.794	test101 EURUSD,M30: open #169509052 buy 0.10 EURUSD at 1.19673 sl: 1.19671 tp: 1.19673 ok
+0	18:43:18.794	test101 EURUSD,M30: Alert: Order send successfully
+0	18:43:18.794	test101 EURUSD,M30: uninit reason 0
+0	18:43:18.796	Script test101 EURUSD,M30: removed
+0	18:44:08.804	Script test101 EURUSD,M30: loaded successfully
+0	18:44:11.143	test101 EURUSD,M30: initialized
+0	18:44:11.164	test101 EURUSD,M30: Alert: Minimum Stop Level=1.0 points
+2	18:44:11.212	test101 EURUSD,M30: open #169509060 buy 0.10 EURUSD at 1.19674 sl: 1.19671 tp: 1.19673 ok
+0	18:44:11.212	test101 EURUSD,M30: Alert: Order send successfully
+0	18:44:11.212	test101 EURUSD,M30: uninit reason 0
+0	18:44:11.214	Script test101 EURUSD,M30: removed
+0	18:45:28.543	Script test101 EURUSD,M30: loaded successfully
+0	18:45:30.132	test101 EURUSD,M30: initialized
+0	18:45:30.153	test101 EURUSD,M30: Alert: Minimum Stop Level=1.0 points
+2	18:45:30.208	test101 EURUSD,M30: open #169509107 buy limit 0.10 EURUSD at 1.19647 sl: 1.19547 tp: 1.19797 ok
+0	18:45:30.208	test101 EURUSD,M30: Alert: Order send successfully
+0	18:45:30.208	test101 EURUSD,M30: uninit reason 0
+0	18:45:30.209	Script test101 EURUSD,M30: removed
+0	21:04:57.458	Script BBIndicator USDJPY,Daily: loaded successfully
+0	21:04:57.476	BBIndicator USDJPY,Daily: initialized
+0	21:04:57.476	BBIndicator USDJPY,Daily: Alert: Price is above bbLower1, Sending short order...
+0	21:04:57.476	BBIndicator USDJPY,Daily: Alert: Entry Price = 107.87
+0	21:04:57.476	BBIndicator USDJPY,Daily: Alert: Stop Loss Price = 109.8151563499477
+0	21:04:57.476	BBIndicator USDJPY,Daily: Alert: Take Profit Price = 105.8820499999998
+2	21:04:57.538	BBIndicator USDJPY,Daily: open #169514693 sell limit 0.10 USDJPY at 107.870 sl: 109.815 tp: 105.882 ok
+0	21:04:57.538	BBIndicator USDJPY,Daily: Alert: Order sent successfully!
+0	21:04:57.538	BBIndicator USDJPY,Daily: uninit reason 0
+0	21:04:57.540	Script BBIndicator USDJPY,Daily: removed
+0	21:06:17.195	Script BBIndicator USDJPY,Daily: loaded successfully
+0	21:06:17.212	BBIndicator USDJPY,Daily: initialized
+0	21:06:17.218	BBIndicator USDJPY,Daily: Alert: Price is above bbLower1, Sending short order...
+0	21:06:17.218	BBIndicator USDJPY,Daily: Alert: Entry Price = 107.875
+0	21:06:17.218	BBIndicator USDJPY,Daily: Alert: Stop Loss Price = 109.8174300054761
+0	21:06:17.218	BBIndicator USDJPY,Daily: Alert: Take Profit Price = 105.8822999999998
+2	21:06:17.267	BBIndicator USDJPY,Daily: open #169514805 sell limit 0.10 USDJPY at 107.875 sl: 109.817 tp: 105.882 ok
+0	21:06:17.267	BBIndicator USDJPY,Daily: Alert: Order sent successfully!
+0	21:06:17.267	BBIndicator USDJPY,Daily: uninit reason 0
+0	21:06:17.269	Script BBIndicator USDJPY,Daily: removed
+0	22:07:12.712	Bands EURUSD,M30: uninit reason 9
+0	22:07:12.712	Bands USDJPY,Daily: uninit reason 9
+0	22:07:12.712	Bands USDJPY,Daily: uninit reason 9
+0	22:07:12.830	Custom indicator Bands EURUSD,M30: removed
+0	22:07:12.856	Custom indicator Bands USDJPY,Daily: removed
+0	22:07:12.857	Custom indicator Bands USDJPY,Daily: removed
