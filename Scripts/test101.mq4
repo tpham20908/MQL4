@@ -3,6 +3,7 @@
 #property version   "1.00"
 #property strict
 #property show_inputs
+#include <CustomFunctions.mqh>
 
 // int maPeriod = 20;
 
@@ -49,6 +50,7 @@ void OnStart(){
    double stoploss = NormalizeDouble(Bid - minstoplevel * Point, Digits);
    double takeprofit = NormalizeDouble(Bid + minstoplevel * Point, Digits);
    //--- place market order to buy 1 lot
+   /*
    int ticket = OrderSend(_Symbol, OP_BUYLIMIT, 0.1, Ask, 3, Ask - 100 * _Point, Ask + 150 * _Point, NULL, 0, 0, Green);
    // int ticket=OrderSend(Symbol(), OP_BUY, 0.1, price, 3, stoploss, takeprofit, "My order", 0 , 0, clrGreen);
    if (ticket < 0) {
@@ -57,4 +59,18 @@ void OnStart(){
      Alert("Order send successfully");
      Comment("Ticket: ", ticket);
    }
+   */
+   
+   Alert("*** " + TimeLocal() + " ***");
+   
+   double maxLossPct = 0.02;
+   int maxLossInPips = 40;
+   
+   Alert("Point: ", _Point);
+   Alert("Ask: ", Ask);
+   Alert("Stop loss: ", Ask - 400 * _Point);
+   double optimalLotSize = OptimalLotSize(maxLossPct, Ask, Ask - 400 * _Point);  // 400 points = 40 pips
+   
+   // double optimalLotSize = OptimalLotSize(maxLossPct, maxLossInPips);
+   Alert("Optimal Lot Size: ", optimalLotSize);
 }
