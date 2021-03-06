@@ -493,3 +493,20 @@
 0	18:21:22.913	Custom indicator Bands USDJPY,M30: loaded successfully
 0	18:21:22.926	Bands USDJPY,M30: initialized
 0	18:21:22.936	Bands USDJPY,M30: initialized
+0	19:22:04.076	Expert Basics\BBStrategy101 EURAUD,M30: loaded successfully
+0	19:22:07.956	BBStrategy101 EURAUD,M30: Alert: EA started.
+0	19:22:07.956	BBStrategy101 EURAUD,M30: initialized
+0	19:22:42.433	BBStrategy101 EURAUD,M30: uninit reason 1
+0	19:22:42.433	BBStrategy101 EURAUD,M30: Alert: EA stopped.
+0	19:22:42.437	Expert BBStrategy101 EURAUD,M30: removed
+0	19:22:52.063	Bands USDJPY,M30: uninit reason 3
+0	19:22:52.063	Bands USDJPY,M30: uninit reason 3
+0	19:22:52.065	Bands USDJPY,M1: initialized
+0	19:22:52.065	Bands USDJPY,M1: initialized
+0	19:43:37.443	Compiling 'BBStrategy101'
+0	20:34:04.891	Bands USDJPY,M1: uninit reason 4
+0	20:34:04.891	Bands USDJPY,M1: uninit reason 4
+0	20:34:04.898	Custom indicator Bands USDJPY,M1: removed
+0	20:34:04.899	Custom indicator Bands USDJPY,M1: removed
+0	20:34:06.676	Bands EURAUD,M30: uninit reason 4
+0	20:34:06.720	Custom indicator Bands EURAUD,M30: removed

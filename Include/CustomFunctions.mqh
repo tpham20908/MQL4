@@ -48,3 +48,13 @@ double CalculateTakeProfit(bool isLong, double entryPrice, int pips) {
    }
    return takeProfit;
 }
+
+bool CheckIfOpenOrderByMagicNumber(int magicNumber) {
+   int openOrders = OrdersTotal();
+   for (int pos = 0; pos < openOrders; pos++) {
+      if (OrderSelect(pos, SELECT_BY_POS)) {
+         if (OrderMagicNumber() == magicNumber) return true;
+      }
+   }
+   return false;
+}
