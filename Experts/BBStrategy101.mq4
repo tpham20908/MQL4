@@ -1,15 +1,9 @@
-//+------------------------------------------------------------------+
-//|                                                BBStrategy101.mq4 |
-//|                                                       Frank Pham |
-//|                                             https://www.mql5.com |
-//+------------------------------------------------------------------+
 #property strict
 #property show_inputs
 #include <CustomFunctions.mqh>
 
 int bbPeriod = 20;
 int stdDev1 = 1;
-int stdDev4 = 4;
 
 input double maxLossPercentage = 0.02;
 input int stopLossInPoints = 400;  // 40 pips
@@ -24,16 +18,11 @@ void OnTick() {
    double bbMain = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_MAIN, 0);
    double bbLower1 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_LOWER, 0);
    double bbUpper1 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_UPPER, 0);
-   // double bbLower4 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev4, 0, PRICE_CLOSE, MODE_LOWER, 0);
-   // double bbUpper4 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev4, 0, PRICE_CLOSE, MODE_UPPER, 0);
    double lotSize; 
    double stopLossPrice;
    double takeProfitPrice;
 
    if(Ask < bbLower1) { //buying
-      Print("Price is bellow bbLower1, Sending buy order...");
-      // stopLossPrice = bbLower4;
-      // takeProfitPrice = bbMain;
       stopLossPrice = Ask - stopLossInPoints * _Point;
       takeProfitPrice = Ask + takeProfitInPoints * _Point;
       lotSize = OptimalLotSize(maxLossPercentage, Ask, stopLossPrice);
@@ -44,9 +33,6 @@ void OnTick() {
       
       orderId = OrderSend(_Symbol, OP_BUYLIMIT, lotSize, Ask, 10, stopLossPrice, takeProfitPrice, "Buying...", 0, 0, clrBeige);
    } else if(Bid > bbUpper1) { //shorting
-      Print("Price is above bbLower1, Sending short order...");
-      // stopLossPrice = bbUpper4;
-      // takeProfitPrice = bbMain;
       stopLossPrice = Bid + stopLossInPoints * _Point;
       takeProfitPrice = Bid - takeProfitInPoints * _Point;
       lotSize = OptimalLotSize(maxLossPercentage, Bid, stopLossPrice);
