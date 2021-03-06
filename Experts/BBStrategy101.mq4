@@ -10,20 +10,23 @@ input int takeProfitInPoints = 60;  // 6 pips
 int bbPeriod = 20;
 int stdDev1 = 1;
 int magicNumber = 101;
+int orderId = 0;
+double lotSize;
 
 int OnInit() { return INIT_SUCCEEDED; }
-void OnDeinit(const int reason) {}
+void OnDeinit(const int reason) {
+   bool orderClosed = OrderClose(orderId, lotSize, Bid, 10, clrNONE);
+   Print(orderClosed ? "Close order at price: " + Bid + "." : "Error closing order.");
+}
 
 void OnTick() {
-   int orderId;
    double bbMain = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_MAIN, 0);
    double bbLower1 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_LOWER, 0);
    double bbUpper1 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_UPPER, 0);
-   double lotSize; 
    double stopLossPrice;
    double takeProfitPrice;
    
-   if (!CheckIfOpenOrderByMagicNumber(magicNumber)) {
+   if (!CheckIfOpenOrderByMagicNumber(magicNumber)) { // try to get a position
       if(Ask < bbLower1) { //buying
          stopLossPrice = Ask - stopLossInPoints * _Point;
          takeProfitPrice = Ask + takeProfitInPoints * _Point;
@@ -46,8 +49,8 @@ void OnTick() {
          orderId = OrderSend(_Symbol, OP_SELLLIMIT, lotSize, Bid, 10, stopLossPrice, takeProfitPrice, "Shorting...", magicNumber, 0, clrCadetBlue);
       }
       
-      Alert("*** " + TimeLocal() + " ***");
-      Alert(orderId < 0 ? "Order sent failed, error code: " + GetLastError() : "Order sent successfully! See prints for more details.");
+      Print("*** " + TimeLocal() + " ***");
+      Print(orderId < 0 ? "Order sent failed, error code: " + GetLastError() : "Order sent successfully! See prints for more details.");
    }
 }
 

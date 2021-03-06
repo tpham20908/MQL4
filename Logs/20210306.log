@@ -1,0 +1,10 @@
+0	10:56:12.386	Script test101 USDCAD,Daily: loaded successfully
+0	10:56:14.336	test101 USDCAD,Daily: initialized
+0	10:56:14.353	test101 USDCAD,Daily: Alert: *** 2021.03.06 10:56:14 ***
+0	10:56:14.433	test101 USDCAD,Daily: uninit reason 0
+0	10:56:14.435	Script test101 USDCAD,Daily: removed
+0	10:57:56.643	Script test101 USDCAD,M1: loaded successfully
+0	10:57:58.967	test101 USDCAD,M1: initialized
+0	10:57:58.982	test101 USDCAD,M1: Alert: *** 2021.03.06 10:57:58 ***
+0	10:57:59.032	test101 USDCAD,M1: uninit reason 0
+0	10:57:59.034	Script test101 USDCAD,M1: removed

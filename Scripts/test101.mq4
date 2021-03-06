@@ -15,6 +15,10 @@ int rsiPeriod = 14;
 int rsiShift = 0;
 
 void OnStart(){
+   Alert("*** " + TimeLocal() + " ***");
+   
+   int ticket = OrderSend(_Symbol, OP_BUY, 0.1, Ask, 10, Ask - 400 * _Point, Ask + 400 * _Point, NULL, 0, 0, clrAzure);
+   
    // double maValue = iMA(NULL, 0, maPeriod, -3, MODE_SMA, PRICE_CLOSE, 4);
    // Alert("MA 20 is " + NormalizeDouble(maValue, Digits) + ".");
    
@@ -43,12 +47,12 @@ void OnStart(){
    // Alert("Point: ", _Point);
    
    //--- get minimum stop level
-   double minstoplevel = MarketInfo(_Symbol, MODE_STOPLEVEL);
+   // double minstoplevel = MarketInfo(_Symbol, MODE_STOPLEVEL);
    // Alert("Minimum Stop Level=", minstoplevel, " points");
-   double price = Ask;
+   // double price = Ask;
    //--- calculated SL and TP prices must be normalized
-   double stoploss = NormalizeDouble(Bid - minstoplevel * Point, Digits);
-   double takeprofit = NormalizeDouble(Bid + minstoplevel * Point, Digits);
+   // double stoploss = NormalizeDouble(Bid - minstoplevel * Point, Digits);
+   // double takeprofit = NormalizeDouble(Bid + minstoplevel * Point, Digits);
    //--- place market order to buy 1 lot
    /*
    int ticket = OrderSend(_Symbol, OP_BUYLIMIT, 0.1, Ask, 3, Ask - 100 * _Point, Ask + 150 * _Point, NULL, 0, 0, Green);
@@ -59,9 +63,6 @@ void OnStart(){
      Alert("Order send successfully");
      Comment("Ticket: ", ticket);
    }
-   */
-   
-   Alert("*** " + TimeLocal() + " ***");
    
    double maxLossPct = 0.02;
    int maxLossInPips = 40;
@@ -73,4 +74,5 @@ void OnStart(){
    
    // double optimalLotSize = OptimalLotSize(maxLossPct, maxLossInPips);
    Alert("Optimal Lot Size: ", optimalLotSize);
+   */
 }
