@@ -1,6 +1,8 @@
-#property copyright "Copyright 2021, MetaQuotes Software Corp."
-#property link      "https://www.mql5.com"
-#property version   "1.00"
+//+------------------------------------------------------------------+
+//|                                                BBStrategy101.mq4 |
+//|                                                       Frank Pham |
+//|                                             https://www.mql5.com |
+//+------------------------------------------------------------------+
 #property strict
 #property show_inputs
 #include <CustomFunctions.mqh>
@@ -13,7 +15,11 @@ input double maxLossPercentage = 0.02;
 input int stopLossInPoints = 400;  // 40 pips
 input int takeProfitInPoints = 600;  // 60 pips
 
-void OnStart() {
+int OnInit() { return INIT_SUCCEEDED; }
+
+void OnDeinit(const int reason) {}
+
+void OnTick() {
    int orderId;
    double bbMain = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_MAIN, 0);
    double bbLower1 = iBands(NULL, PERIOD_CURRENT, bbPeriod, stdDev1, 0, PRICE_CLOSE, MODE_LOWER, 0);
@@ -54,5 +60,5 @@ void OnStart() {
    
    Alert("*** " + TimeLocal() + " ***");
    Alert(orderId < 0 ? "Order sent failed, error code: " + GetLastError() : "Order sent successfully! See prints for more details.");
-   Print("Lot size: ", lotSize);
 }
+
